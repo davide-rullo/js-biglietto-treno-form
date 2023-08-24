@@ -11,11 +11,17 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.insert{
+    text-align: center;
+}
+
 .container{
     background-color: white;
-    text-align: center;
     margin-top: 4rem;
     padding: 1rem;
+    margin: 1rem 3rem 2rem;
+    border-radius: 1rem;
+    
 }
 
 .data, .controls{
@@ -23,11 +29,16 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    flex-wrap: wrap;
 
 }
 
-.calcola{
-    padding-bottom: 2rem;
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
 }
 
 .controls{
@@ -38,4 +49,28 @@ body{
 button{
     width: 5rem;
 
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    border: 1px solid;
+}
+.info p{
+    padding-top: 2rem;
+}
+
+.owner{
+    background-color: grey;
+    
+}
+
+.owner, .offer, .place, .code, .price{
+    padding: 1rem;
+}
+
+.ticket, .yourTicket{
+    display: none;
 }
