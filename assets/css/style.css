@@ -18,7 +18,7 @@ body{
     padding: 1rem;
 }
 
-.data{
+.data, .controls{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,4 +32,10 @@ body{
 
 .controls{
     padding-top: 2rem;
+    
+}
+
+button{
+    width: 5rem;
+
 }
