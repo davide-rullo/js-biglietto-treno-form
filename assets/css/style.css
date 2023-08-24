@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: rgba(235, 132, 132, 0.733);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: white;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.calcola{
+    padding-bottom: 2rem;
+}
+
+.controls{
+    padding-top: 2rem;
+}

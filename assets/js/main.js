@@ -12,9 +12,12 @@ console.log(userAge);
 show.addEventListener("click", function() {
   distance = distance.value;
   userAge = userAge.value;
+  console.log(distance);
+  console.log(userAge);
 });
 
-
+console.log(distance);
+console.log(userAge);
 
 
 

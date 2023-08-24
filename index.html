@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treno</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <div>
-        <input class="km" type="text">
-    </div>
-    
-    <div>
-        <input class="age" type="text">
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Treno</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h3 class="calcola">Calcola il prezzo del tuo biglietto</h3>
+            <div class="data">
+                <div class="name">
+                    <h5>Nome e cognome</h5>
+                    <input type="text">
+                </div>
+                <div>
+                    <h5>Km da percorrere</h5>
+                    <input id="km" type="text">
+                </div>
+                <div>
+                    <h5>Età</h5>
+                    <input id="age" type="text">
+                </div>
 
-    <button id="confirm">Genera</button>
+            </div>
+            <div class="controls">
+                <button id="confirm">Genera</button>
+                <button id="discard">Annulla</button>
+            </div>
+        </div>
 
-    <script type="text/javascript" src="./assets/js/main.js"></script>
-</body>
+        <script type="text/javascript" src="./assets/js/main.js"></script>
+    </body>
 </html>
