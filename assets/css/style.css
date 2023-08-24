@@ -7,8 +7,9 @@
 
 
 body{
-    background-color: rgba(235, 132, 132, 0.733);
+    background-color: #066a63;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .insert{
@@ -16,7 +17,7 @@ body{
 }
 
 .container{
-    background-color: white;
+    background-color: #52928c;
     margin-top: 4rem;
     padding: 1rem;
     margin: 1rem 3rem 2rem;
@@ -31,6 +32,12 @@ body{
     gap: 1rem;
     flex-wrap: wrap;
 
+}
+
+input{
+    width: 13rem;
+    height: 1.5rem;
+    border: none;
 }
 
 .title{
@@ -48,7 +55,8 @@ body{
 
 button{
     width: 5rem;
-
+    height: 1.5rem;
+    border: none;
 }
 
 .info{
@@ -56,14 +64,14 @@ button{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;
-    border: 1px solid;
+    border: 1px solid black;
 }
 .info p{
     padding-top: 2rem;
 }
 
 .owner{
-    background-color: grey;
+    background-color: #044c44;;
     
 }
 
